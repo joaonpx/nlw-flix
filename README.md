@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img alt="NLW eSports" src="./assets/preview.png" width="100%">
+  <img alt="NLW eSports" src="./assets/webpreview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
