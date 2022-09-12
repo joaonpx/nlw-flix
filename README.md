@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 NLW eSports é um projeto voltado para a conexão entre gamers.
 
-- **[NLW eSports](https://nlwesports.vercel.app)**
+- **[NLW eSports](https://gonlwesports.vercel.app/)**
 
 ## 🔖 Layout
 
