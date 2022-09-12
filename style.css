@@ -59,6 +59,14 @@ ul {
   list-style: none;
 }
 
+img {
+  transition: all 150ms;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
 a {
   text-decoration: none;
 }
@@ -95,14 +103,6 @@ a {
     linear-gradient(90deg, #9572fc 0%, #43e7ad 50.52%, #e2d45c 100%) border-box;
   border-top: 4px solid transparent;
   border-radius: 2rem 2rem 0.8rem 0.8rem;
-}
-
-.cards .items ul li img {
-  transition: all 150ms;
-}
-
-.cards .items ul li img:hover {
-  transform: scale(1.1);
 }
 
 /* ============================== responsividade ================================== */
