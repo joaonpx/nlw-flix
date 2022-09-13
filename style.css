@@ -1,5 +1,4 @@
 /* ============================== geral ================================== */
-
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +29,6 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-/* ============================== header ================================== */
 .container {
   display: flex;
   align-items: center;
@@ -40,19 +38,6 @@ body {
   margin-top: 3.2rem;
 
   width: 100%;
-}
-
-header {
-  margin-bottom: 3.2rem;
-}
-
-header .avatar {
-  width: 12rem;
-
-  background: linear-gradient(white, white) padding-box,
-    linear-gradient(90deg, #9572fc 0%, #43e7ad 50.52%, #e2d45c 100%) border-box;
-  border: 4px solid transparent;
-  border-radius: 6rem;
 }
 
 ul {
@@ -69,6 +54,20 @@ img:hover {
 
 a {
   text-decoration: none;
+}
+
+/* ============================== header ================================== */
+header {
+  margin-bottom: 3.2rem;
+}
+
+header .avatar {
+  width: 12rem;
+
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(90deg, #9572fc 0%, #43e7ad 50.52%, #e2d45c 100%) border-box;
+  border: 4px solid transparent;
+  border-radius: 6rem;
 }
 
 /* ============================== cards ================================== */
@@ -103,6 +102,20 @@ a {
     linear-gradient(90deg, #9572fc 0%, #43e7ad 50.52%, #e2d45c 100%) border-box;
   border-top: 4px solid transparent;
   border-radius: 2rem 2rem 0.8rem 0.8rem;
+}
+
+/* ============================== footer ================================== */
+footer {
+  background: -webkit-linear-gradient(
+    left,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-top: 0.8rem;
 }
 
 /* ============================== responsividade ================================== */
