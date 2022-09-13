@@ -93,8 +93,6 @@ header .avatar {
 .games,
 .streamers,
 .social {
-  background: var(--bg-card);
-
   padding: 3.2rem;
   margin-bottom: 2.4rem;
 
