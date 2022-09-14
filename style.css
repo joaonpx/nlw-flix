@@ -8,9 +8,9 @@
 :root {
   --white: #ffffff;
   --black: #000000;
-  --gray: #a1a1aa;
-  --bg-card: #2a2634;
-  --bg: #121214;
+  --gray: #e2d7d7;
+  --bg-card: #342626;
+  --bg: #170505;
 
   font-size: 62.5%; /* 10px = 1rem */
 }
@@ -18,7 +18,7 @@
 body {
   height: 100vh;
 
-  background-image: url('./assets/background.png');
+  background-image: url('./assets/background.jpg');
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% auto;
@@ -64,9 +64,7 @@ header {
 header .avatar {
   width: 12rem;
 
-  background: linear-gradient(white, white) padding-box,
-    linear-gradient(90deg, #9572fc 0%, #43e7ad 50.52%, #e2d45c 100%) border-box;
-  border: 4px solid transparent;
+  border: 4px solid rgba(255, 255, 255, 0.18);
   border-radius: 6rem;
 }
 
@@ -91,40 +89,41 @@ header .avatar {
   gap: 1.6rem;
 }
 
-.games,
-.streamers,
+.cards .movies .items img,
+.cards .series .items img {
+  border-radius: 0.8rem;
+
+  width: 18rem;
+}
+
+.movies,
+.series,
 .social {
   margin-bottom: 2.4rem;
 
-  background-image: linear-gradient(
-    90deg,
-    #9572fc 0%,
-    #43e7ad 50.52%,
-    #e2d45c 100%
-  );
   border-radius: 2rem;
-  padding-top: 0.4rem;
+  padding: 0.4rem;
 }
 
 section .card-container {
-  background: var(--bg-card);
+  background: rgba(219, 75, 82, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 4px solid rgba(255, 255, 255, 0.18);
+
   padding: 3.2rem;
   padding-top: 2.4rem;
-  border-radius: 1.5rem;
+  border-radius: 1.6rem;
 }
 
 /* ============================== footer ================================== */
 footer {
-  background: -webkit-linear-gradient(
-    left,
-    #9572fc 0%,
-    #43e7ad 50.52%,
-    #e2d45c 100%
-  );
+  background: -webkit-linear-gradient(right, #ae3b40, #ea5247);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  margin-top: 0.8rem;
+  margin: 0.8rem 0 2.4rem;
 }
 
 /* ============================== responsividade ================================== */
