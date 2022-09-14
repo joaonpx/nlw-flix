@@ -12,11 +12,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
-- JavaScript
 
 ## 💻 Projeto
 
 NLW eSports é um projeto voltado para a conexão entre gamers.
+
+Você pode visualizar o projeto em funcionamento através do link abaixo:
 
 - **[NLW eSports](https://gonlwesports.vercel.app/)**
 
