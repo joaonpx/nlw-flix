@@ -15,11 +15,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-NLW eSports é um projeto voltado para a conexão entre gamers.
+NLW Flix é uma vertente do projeto NLW eSports desenvolvido durante a **[Next Level Week eSports](https://nextlevelweek.com/)**.
 
 Você pode visualizar o projeto em funcionamento através do link abaixo:
 
-- **[NLW eSports](https://gonlwesports.vercel.app/)**
+- **[NLW Flix](https://nlwflix.vercel.app/)**
 
 ## 🔖 Layout
 
