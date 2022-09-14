@@ -1,5 +1,5 @@
 <h1 align="center">
-  NLW Flix
+  📺 NLW Flix
 </h1>
 
 <p align="center">
