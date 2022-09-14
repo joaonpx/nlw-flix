@@ -19,10 +19,10 @@ body {
   height: 100vh;
 
   background-image: url('./assets/background.png');
-  background-color: var(--bg);
   background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
+  background-position: top center;
+  background-size: 100% auto;
+  background-color: var(--bg);
 
   color: var(--white);
 
@@ -87,19 +87,30 @@ header .avatar {
 
 .cards .items ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.6rem;
 }
 
 .games,
 .streamers,
 .social {
-  padding: 3.2rem;
   margin-bottom: 2.4rem;
 
-  background: linear-gradient(#2a2634, #2a2634) padding-box,
-    linear-gradient(90deg, #9572fc 0%, #43e7ad 50.52%, #e2d45c 100%) border-box;
-  border-top: 4px solid transparent;
-  border-radius: 2rem 2rem 0.8rem 0.8rem;
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  border-radius: 2rem;
+  padding-top: 0.4rem;
+}
+
+section .card-container {
+  background: var(--bg-card);
+  padding: 3.2rem;
+  padding-top: 2.4rem;
+  border-radius: 1.5rem;
 }
 
 /* ============================== footer ================================== */
