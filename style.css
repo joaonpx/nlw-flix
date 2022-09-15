@@ -123,6 +123,7 @@ header .avatar {
 .social {
   animation-delay: 0.3s;
 }
+
 section .card-container {
   background: rgba(219, 75, 82, 0.3);
   backdrop-filter: blur(5px);
