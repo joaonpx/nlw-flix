@@ -23,7 +23,7 @@ Você pode visualizar o projeto em funcionamento através do link abaixo:
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/1102912263666619803). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/iZIO042nGjO8CihmfR49BA/NLW-eSports---Explorer/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ---
 
